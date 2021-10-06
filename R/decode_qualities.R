@@ -1,6 +1,15 @@
 # This function converts a scalar string of quality values into a vector of Phred scores.
 # The conversion calculation is: Phred score = ASCII value of letter - offset
 
+#' Title Decodes a FastQ quality string into  scores
+#'
+#' @param qualities A sfastq quality string 
+#' @param offset The Phred encoding offset value
+#'
+#' @return A numeric vector of Phred scores
+#' @export
+#'
+#' @examples
 decode_qualities <- function(qualities, offset=33) {
   
   assertthat::assert_that(assertthat::is.scalar(qualities))

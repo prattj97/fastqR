@@ -1,0 +1,32 @@
+---
+title: "fastrq_usage"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{fastrq_usage}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+```{r setup}
+library(fastqR)
+```
+
+Basic Usage 
+============
+
+This is how you do stuff 
+
+
+File Reading 
+-------------
+
+```{r}
+
+```

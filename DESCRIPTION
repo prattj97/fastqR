@@ -1,6 +1,6 @@
 Package: fastqR
 Title: What the Package Does (One Line, Title Case)
-Version: 0.0.0.9000
+Version: 0.0.0.1
 Authors@R: 
     person(given = "First",
            family = "Last",
@@ -8,8 +8,7 @@ Authors@R:
            email = "first.last@example.com",
            comment = c(ORCID = "YOUR-ORCID-ID"))
 Description: What the package does (one paragraph).
-License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
-    license
+License: GPL (>= 3)
 Encoding: UTF-8
 LazyData: true
 Roxygen: list(markdown = TRUE)
@@ -20,3 +19,7 @@ Imports:
     magrittr,
     stringr,
     tibble
+Suggests: 
+    rmarkdown,
+    knitr
+VignetteBuilder: knitr
